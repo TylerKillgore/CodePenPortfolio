@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+body{ margin:0px 0px; }
+
+#hero{
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/29/10/07/animal-1868911_960_720.jpg");
+  background-size:cover;
+  position: relative;
+}
+
+.header{
+font-family: 'Pacifico', cursive;
+  position:absolute;
+  top:50%;
+  text-align: left;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);  
+
+}
+
+#content{
+  padding:100px 50px;
+  text-align:center;
+  width:70%;
+  margin:0px auto;
+}
+
+#content h2{
+  margin:0px 0px 30px 0px;
+}
+
+#footer{
+  padding:20px 0px;
+  text-align:center;
+  background:#ddd;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+}
